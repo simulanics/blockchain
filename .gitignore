@@ -6,3 +6,5 @@
 .ycm_extra_conf.pyc
 Release
 Debug
+cmake-build-debug/
+cmake-build-release/
