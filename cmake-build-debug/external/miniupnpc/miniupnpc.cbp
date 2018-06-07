@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="miniupnpc"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="clang"/>
+		<Option virtualFolders="CMake Files\;CMake Files\src\;CMake Files\external\;CMake Files\external\miniupnpc\;CMake Files\external\gtest\;CMake Files\external\gtest\cmake\;CMake Files\tests\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/yusufyildiz/Documents/github/monetaverde/blockchain/cmake-build-debug/external/miniupnpc"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yusufyildiz/Documents/github/monetaverde/blockchain/cmake-build-debug/external/miniupnpc/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yusufyildiz/Documents/github/monetaverde/blockchain/cmake-build-debug/external/miniupnpc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yusufyildiz/Documents/github/monetaverde/blockchain/cmake-build-debug/external/miniupnpc/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yusufyildiz/Documents/github/monetaverde/blockchain/cmake-build-debug/external/miniupnpc/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="upnpc-static">
+				<Option output="/Users/yusufyildiz/Documents/github/monetaverde/blockchain/cmake-build-debug/external/miniupnpc/libminiupnpc.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yusufyildiz/Documents/github/monetaverde/blockchain/cmake-build-debug/external/miniupnpc"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DMINIUPNPC_SET_SOCKET_TIMEOUT"/>
+					<Add option="-D_BSD_SOURCE"/>
+					<Add option="-D_POSIX_C_SOURCE=1"/>
+					<Add option="-DMACOSX"/>
+					<Add option="-D_DARWIN_C_SOURCE"/>
+					<Add directory="/Users/yusufyildiz/Documents/github/monetaverde/blockchain/include"/>
+					<Add directory="/Users/yusufyildiz/Documents/github/monetaverde/blockchain/src"/>
+					<Add directory="/Users/yusufyildiz/Documents/github/monetaverde/blockchain/external"/>
+					<Add directory="/Users/yusufyildiz/Documents/github/monetaverde/blockchain/cmake-build-debug/version"/>
+					<Add directory="/usr/include/malloc"/>
+					<Add directory="/Users/yusufyildiz/Documents/github/monetaverde/blockchain/src/Platform/OSX"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/yusufyildiz/Documents/github/monetaverde/blockchain/cmake-build-debug"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yusufyildiz/Documents/github/monetaverde/blockchain/cmake-build-debug/external/miniupnpc/Makefile&quot;  VERBOSE=1 upnpc-static"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yusufyildiz/Documents/github/monetaverde/blockchain/cmake-build-debug/external/miniupnpc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yusufyildiz/Documents/github/monetaverde/blockchain/cmake-build-debug/external/miniupnpc/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yusufyildiz/Documents/github/monetaverde/blockchain/cmake-build-debug/external/miniupnpc/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="upnpc-static/fast">
+				<Option output="/Users/yusufyildiz/Documents/github/monetaverde/blockchain/cmake-build-debug/external/miniupnpc/libminiupnpc.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yusufyildiz/Documents/github/monetaverde/blockchain/cmake-build-debug/external/miniupnpc"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DMINIUPNPC_SET_SOCKET_TIMEOUT"/>
+					<Add option="-D_BSD_SOURCE"/>
+					<Add option="-D_POSIX_C_SOURCE=1"/>
+					<Add option="-DMACOSX"/>
+					<Add option="-D_DARWIN_C_SOURCE"/>
+					<Add directory="/Users/yusufyildiz/Documents/github/monetaverde/blockchain/include"/>
+					<Add directory="/Users/yusufyildiz/Documents/github/monetaverde/blockchain/src"/>
+					<Add directory="/Users/yusufyildiz/Documents/github/monetaverde/blockchain/external"/>
+					<Add directory="/Users/yusufyildiz/Documents/github/monetaverde/blockchain/cmake-build-debug/version"/>
+					<Add directory="/usr/include/malloc"/>
+					<Add directory="/Users/yusufyildiz/Documents/github/monetaverde/blockchain/src/Platform/OSX"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/yusufyildiz/Documents/github/monetaverde/blockchain/cmake-build-debug"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yusufyildiz/Documents/github/monetaverde/blockchain/cmake-build-debug/external/miniupnpc/Makefile&quot;  VERBOSE=1 upnpc-static/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yusufyildiz/Documents/github/monetaverde/blockchain/cmake-build-debug/external/miniupnpc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yusufyildiz/Documents/github/monetaverde/blockchain/cmake-build-debug/external/miniupnpc/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yusufyildiz/Documents/github/monetaverde/blockchain/cmake-build-debug/external/miniupnpc/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/yusufyildiz/Documents/github/monetaverde/blockchain/external/miniupnpc/connecthostport.c">
+			<Option target="upnpc-static"/>
+		</Unit>
+		<Unit filename="/Users/yusufyildiz/Documents/github/monetaverde/blockchain/external/miniupnpc/connecthostport.h">
+			<Option target="upnpc-static"/>
+		</Unit>
+		<Unit filename="/Users/yusufyildiz/Documents/github/monetaverde/blockchain/external/miniupnpc/igd_desc_parse.c">
+			<Option target="upnpc-static"/>
+		</Unit>
+		<Unit filename="/Users/yusufyildiz/Documents/github/monetaverde/blockchain/external/miniupnpc/igd_desc_parse.h">
+			<Option target="upnpc-static"/>
+		</Unit>
+		<Unit filename="/Users/yusufyildiz/Documents/github/monetaverde/blockchain/external/miniupnpc/minisoap.c">
+			<Option target="upnpc-static"/>
+		</Unit>
+		<Unit filename="/Users/yusufyildiz/Documents/github/monetaverde/blockchain/external/miniupnpc/minisoap.h">
+			<Option target="upnpc-static"/>
+		</Unit>
+		<Unit filename="/Users/yusufyildiz/Documents/github/monetaverde/blockchain/external/miniupnpc/minissdpc.c">
+			<Option target="upnpc-static"/>
+		</Unit>
+		<Unit filename="/Users/yusufyildiz/Documents/github/monetaverde/blockchain/external/miniupnpc/minissdpc.h">
+			<Option target="upnpc-static"/>
+		</Unit>
+		<Unit filename="/Users/yusufyildiz/Documents/github/monetaverde/blockchain/external/miniupnpc/miniupnpc.c">
+			<Option target="upnpc-static"/>
+		</Unit>
+		<Unit filename="/Users/yusufyildiz/Documents/github/monetaverde/blockchain/external/miniupnpc/miniupnpc.h">
+			<Option target="upnpc-static"/>
+		</Unit>
+		<Unit filename="/Users/yusufyildiz/Documents/github/monetaverde/blockchain/external/miniupnpc/miniwget.c">
+			<Option target="upnpc-static"/>
+		</Unit>
+		<Unit filename="/Users/yusufyildiz/Documents/github/monetaverde/blockchain/external/miniupnpc/miniwget.h">
+			<Option target="upnpc-static"/>
+		</Unit>
+		<Unit filename="/Users/yusufyildiz/Documents/github/monetaverde/blockchain/external/miniupnpc/minixml.c">
+			<Option target="upnpc-static"/>
+		</Unit>
+		<Unit filename="/Users/yusufyildiz/Documents/github/monetaverde/blockchain/external/miniupnpc/minixml.h">
+			<Option target="upnpc-static"/>
+		</Unit>
+		<Unit filename="/Users/yusufyildiz/Documents/github/monetaverde/blockchain/external/miniupnpc/portlistingparse.c">
+			<Option target="upnpc-static"/>
+		</Unit>
+		<Unit filename="/Users/yusufyildiz/Documents/github/monetaverde/blockchain/external/miniupnpc/portlistingparse.h">
+			<Option target="upnpc-static"/>
+		</Unit>
+		<Unit filename="/Users/yusufyildiz/Documents/github/monetaverde/blockchain/external/miniupnpc/receivedata.c">
+			<Option target="upnpc-static"/>
+		</Unit>
+		<Unit filename="/Users/yusufyildiz/Documents/github/monetaverde/blockchain/external/miniupnpc/receivedata.h">
+			<Option target="upnpc-static"/>
+		</Unit>
+		<Unit filename="/Users/yusufyildiz/Documents/github/monetaverde/blockchain/external/miniupnpc/upnpc.c">
+			<Option target="upnpc-static"/>
+		</Unit>
+		<Unit filename="/Users/yusufyildiz/Documents/github/monetaverde/blockchain/external/miniupnpc/upnpcommands.c">
+			<Option target="upnpc-static"/>
+		</Unit>
+		<Unit filename="/Users/yusufyildiz/Documents/github/monetaverde/blockchain/external/miniupnpc/upnpcommands.h">
+			<Option target="upnpc-static"/>
+		</Unit>
+		<Unit filename="/Users/yusufyildiz/Documents/github/monetaverde/blockchain/external/miniupnpc/upnperrors.c">
+			<Option target="upnpc-static"/>
+		</Unit>
+		<Unit filename="/Users/yusufyildiz/Documents/github/monetaverde/blockchain/external/miniupnpc/upnperrors.h">
+			<Option target="upnpc-static"/>
+		</Unit>
+		<Unit filename="/Users/yusufyildiz/Documents/github/monetaverde/blockchain/external/miniupnpc/upnpreplyparse.c">
+			<Option target="upnpc-static"/>
+		</Unit>
+		<Unit filename="/Users/yusufyildiz/Documents/github/monetaverde/blockchain/external/miniupnpc/upnpreplyparse.h">
+			<Option target="upnpc-static"/>
+		</Unit>
+		<Unit filename="/Users/yusufyildiz/Documents/github/monetaverde/blockchain/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/yusufyildiz/Documents/github/monetaverde/blockchain/CTestCustom.cmake">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/yusufyildiz/Documents/github/monetaverde/blockchain/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+		<Unit filename="/Users/yusufyildiz/Documents/github/monetaverde/blockchain/src/version.h.in">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+		<Unit filename="/Users/yusufyildiz/Documents/github/monetaverde/blockchain/external/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\external\"/>
+		</Unit>
+		<Unit filename="/Users/yusufyildiz/Documents/github/monetaverde/blockchain/external/miniupnpc/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\external\miniupnpc\"/>
+		</Unit>
+		<Unit filename="/Users/yusufyildiz/Documents/github/monetaverde/blockchain/external/miniupnpc/miniupnpcstrings.h.cmake">
+			<Option virtualFolder="CMake Files\external\miniupnpc\"/>
+		</Unit>
+		<Unit filename="/Users/yusufyildiz/Documents/github/monetaverde/blockchain/external/gtest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\external\gtest\"/>
+		</Unit>
+		<Unit filename="/Users/yusufyildiz/Documents/github/monetaverde/blockchain/external/gtest/cmake/internal_utils.cmake">
+			<Option virtualFolder="CMake Files\external\gtest\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/yusufyildiz/Documents/github/monetaverde/blockchain/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tests\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
