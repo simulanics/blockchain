@@ -107,9 +107,9 @@ const char     P2P_STAT_TRUSTED_PUB_KEY[]                    = "db9eabe971890012
 
 //TODO Add here your network seed nodes
 const std::initializer_list<const char*> SEED_NODES = {
-        "seed01.monetaverde.io:26080",
-        "seed02.monetaverde.io:26080",
-        "seed03.monetaverde.io:26080"
+        "18.204.131.141:26080",
+        "34.230.163.166:26080",
+        "52.20.180.208:26080"
 };
 
 
